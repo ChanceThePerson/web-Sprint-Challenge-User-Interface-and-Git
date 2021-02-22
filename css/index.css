@@ -21,7 +21,8 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    text-decoration: none;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -65,34 +66,192 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-.lambdaBlack {
-    margin-right: 3%;
+/*--------------------------------------------------*/
+
+h1 {
+    padding-left: 20px;
 }
-.mainImage 
-{
- display: flex;
- margin: 0 auto;
- padding: 1%;
- 
+.topPara {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-bottom: dashed black 1px;
 }
 
-.topRow{
+.firstSection {
     display: flex;
-    border: green 3px solid;
-    justify-content: center;
-    margin-bottom: 2%;
+    flex-direction: column;
+    width: 375px;
+    border-bottom: dashed 1px black;
+    margin-bottom: 50px;
+    margin-top: 30px;
+
 }
-.topButtons 
-{
+
+.topLeftText {
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.learnMore {
+    border: solid black 2px;
+    border-radius: 10px;
+    width: 130px;
+    height: 35px;
+    text-align: center;
+    padding-top: 8px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.topText2 {
+    padding-left: 10px;
+    padding-top: 5p;
+    padding-bottom: 10px;
+}
+
+.learnMore2 {
+    border: solid black 2px;
+    border-radius: 10px;
+    width: 130px;
+    height: 35px;
+    text-align: center;
+    padding-top: 8px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.secondSection {
     display: flex;
-    border: blue 2px solid;
-    align-items:flex-end;
-    width: 60%;
+    flex-direction: column;
+    width: 375px;
+    border-bottom: dashed 1px black;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.firstTwo {
+    display: flex;
     justify-content: space-between;
-    text-decoration: 0;
+}
+
+
+
+
+.bottomText1 {
+    padding-left: 10px;
+    padding-top: 5p;
+    padding-bottom: 10px;
+}
+
+.learnMore3 {
+    border: solid black 2px;
+    border-radius: 10px;
+    width: 130px;
+    height: 35px;
+    text-align: center;
+    padding-top: 8px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.bottomText2 {
+    padding-left: 10px;
+    padding-top: 5p;
+    padding-bottom: 10px;
+}
+
+.learnMore4 {
+    border: solid black 2px;
+    border-radius: 10px;
+    width: 130px;
+    height: 35px;
+    text-align: center;
+    padding-top: 8px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.fourthSection {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    border-bottom: dashed 1px black;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-left: 25px;
 
 }
-/*------------PRE-DONE-STUFF-BELOW-THIS-LINE-------------------*/
+.thirdSection {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    border-bottom: dashed 1px black;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-right: 25px;
+}
+
+.bottomTwo {
+    display: flex;
+    justify-content: center;
+
+
+    
+}
+
+
+
+
+.finalSection {
+    display: flex;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-right: 0px;
+    width: 840px;
+    flex-wrap: wrap;
+   margin: 0 auto;
+}
+
+
+
+
+/* ---------------------------- */
+.navContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.lambdaImage {
+    margin-left: 30%;
+}
+
+.topButtons {
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-end;
+    width: 600px;
+    margin-left: 15px;
+    
+    
+}
+
+
+.headerImage {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -126,18 +285,134 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+ .box1 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: teal;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .box2 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: gold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .box3 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: cadetblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .box4 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: coral;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .box5 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: crimson;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .box6 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: forestgreen;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .box7 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: darkorchid;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .box8 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: hotpink;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .box9 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: indigo;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .box10 {
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    background-color: dodgerblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+
 
 .bottom-content {
     display: flex;
@@ -171,4 +446,3 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-/*------------PRE-DONE-STUFF-ABOVE-THIS-LINE-------------------*/
